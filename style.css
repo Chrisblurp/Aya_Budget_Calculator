@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+    font-family: arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+form{
+color: white;
+    display: grid;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    height: 250px;
+
+}
+table{
+    color: white;
+        display: grid;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        height: 250px;
+        border-collapse: collapse;
+    
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
